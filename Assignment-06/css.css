@@ -1,0 +1,106 @@
+/*
+Name - Tamana Seddiqi
+ID  - 991528861
+Date - 2019-03-28
+*/
+
+body{
+  background-color: #600F0B;
+  box-sizing : border-box;
+}
+
+.box{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "coffee size"
+                       "cream sugar"
+                       "button button";
+  background-color: white;
+  width: 60%;
+  margin: 5% 20% 10% 20%;
+}
+
+.coffee, .size, .cream, .sugar{
+  border: 3px solid #600F0B;
+	border-radius: 2px;
+  padding: 30px;
+}
+
+.coffee{
+  grid-area: coffee;
+}
+
+.size{
+  grid-area: size;
+}
+
+.cream{
+  grid-area: cream;
+}
+
+.sugar{
+  grid-area: sugar;
+}
+
+.button{
+  grid-area: button;
+  text-align: center;
+}
+
+div{
+  border-radius: 4px black;
+  margin: 2%;
+  text-align: center;
+}
+
+#tim-hortons{
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-family:sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#title{
+  width : 100%;
+  height: 250px;
+}
+
+#order{
+  width: 100px;
+  padding: 1%;
+  margin: 10px;
+}
+
+img{
+  padding: 20px:
+}
+
+#select{
+  height: 20px;
+  width: 180px;
+}
+
+.orderClass{
+  background-color: white;
+  width: 60%;
+  height: auto;
+  margin: 5% 20% 10% 20%;
+}
+
+#thank-you{
+  font-weight: bold;
+  font-style: normal;
+  font-family:sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  color: white;
+  font-style: normal;
+  font-family:sans-serif;
+  background-color: #600F0B
+}
